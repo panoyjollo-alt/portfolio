@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+}
+
+
+.jollo{
+    width: 400px;
+    height: 591px;
+    background-color: blueviolet;
+}
+
+.jollo h3{
+    padding-left: 20px;
+    padding-top: 20px;
+    color: white;
+}
+
+.jollo img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    gap: 50px;
+    margin-top: 450px;
+    margin-left: 50px;
+}
+
+
+.jollo1{
+    margin-top: -566px;
+    width: 880px;
+    height: 591px;
+    background-color: rgb(72, 71, 71);
+    margin-left: 400px;
+}
+
+.jollo1 img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin-top: 150px;
+    margin-left: -150px;
+}
+
+.jollo1 h2{
+    padding-left: 300px;
+    margin-top: -350px;
+    color: white;
+}
+
+.jollo1 h1{
+    padding-left: 300px;
+    margin-top: 30px;
+}
+
+.jollo1 h3{
+    padding-left: 300px;
+    margin-top: 30px;
+    color: white;
+    width: 300px;
+    font-size: x-large;
+}
+
+.jollo2 {
+    margin-left: 300px; 
+    margin-top: 30px;
+}
+
+.jollo2 button{
+    background-color: rgb(72, 71, 71);
+    border-radius: 15px;
+    height: 30px;
+    width: 130px;
+    color: white;
+    border-color: blueviolet;
+}.jollo3{
+    margin-left:130px; 
+    margin-top: -30px;
+}
+
+.jollo3 button{
+    background-color: blueviolet;
+    color: black;
+    height: 30px;
+    width: 130px;
+    margin-left: 10px;
+}
+
+.jollo4{
+    margin-left: 400px;
+    margin-top: -400px;
+    border-radius: 5px;
+
+}
+
+.jollo4 button{
+    height: 35px;
+    width: 35px;
+    background-color: rgb(72, 71, 71);
+    border-color: rgb(72, 71, 71);
+    color: white;
+    font-size: x-large;
+}
+
+#menu{
+    display: none;
+}
+.burger{
+    cursor: pointer;
+}
+
+.select{
+    transform: translateX(-70px);
+    height: 110px;
+    width: 100px;
+    background: black;
+    padding: 5px;
+    display: none;
+
+}
+
+.select a{
+    display: block;
+    color: wheat;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+#menu:checked ~ .select{
+    display: block;
+}
+
+
+
+
+
+
