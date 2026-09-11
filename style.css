@@ -1,39 +1,40 @@
-*{
+* {
     margin: 0;
 }
 
 
-.jollo{
-    width: 400px;
-    height: 591px;
+.jollo {
+    width: 490px;
+    height: 576px;
     background-color: blueviolet;
 }
 
-.jollo h3{
+.jollo h3 {
     padding-left: 20px;
     padding-top: 20px;
     color: white;
-}
-
-.jollo img{
-    height: 70px;
-    width: 70px;
-    border-radius: 50%;
-    gap: 50px;
-    margin-top: 450px;
-    margin-left: 50px;
+    font-size: 20px;
 }
 
 
-.jollo1{
-    margin-top: -566px;
-    width: 880px;
-    height: 591px;
+.jollogs img {
+    margin-left: 80px;
+    margin-top: 470px;
+    display: inline;
+    height: 50px;
+    width: 50px;
+}
+
+
+.jollo1 {
+    margin-top: -568px;
+    width: 885px;
+    height: 577px;
     background-color: rgb(72, 71, 71);
     margin-left: 400px;
 }
 
-.jollo1 img{
+.jollo1 img {
     height: 300px;
     width: 300px;
     border-radius: 50%;
@@ -41,58 +42,61 @@
     margin-left: -150px;
 }
 
-.jollo1 h2{
+.jollo1 h2 {
     padding-left: 300px;
     margin-top: -350px;
     color: white;
+    font-size: 30px;
 }
 
-.jollo1 h1{
+.jollo1 h1 {
     padding-left: 300px;
     margin-top: 30px;
+    font-size: 40px;
 }
 
-.jollo1 h3{
+.jollo1 h3 {
     padding-left: 300px;
     margin-top: 30px;
     color: white;
     width: 300px;
-    font-size: x-large;
+    font-size: 20px;
 }
 
 .jollo2 {
-    margin-left: 300px; 
+    margin-left: 580px;
     margin-top: 30px;
 }
 
-.jollo2 button{
+.jollo2 button {
     background-color: rgb(72, 71, 71);
     border-radius: 15px;
     height: 30px;
     width: 130px;
     color: white;
     border-color: blueviolet;
-}.jollo3{
-    margin-left:130px; 
-    margin-top: -30px;
 }
 
-.jollo3 button{
+.jollo3 {
+    margin-left: 280px;
+    margin-top: -69px;
+}
+
+.jollo3 button {
     background-color: blueviolet;
     color: black;
     height: 30px;
     width: 130px;
-    margin-left: 10px;
 }
 
-.jollo4{
-    margin-left: 400px;
-    margin-top: -400px;
+.jollo4 {
+    margin-left: 390px;
+    margin-top: -370px;
     border-radius: 5px;
 
 }
 
-.jollo4 button{
+.jollo4 button {
     height: 35px;
     width: 35px;
     background-color: rgb(72, 71, 71);
@@ -101,14 +105,15 @@
     font-size: x-large;
 }
 
-#menu{
+#menu {
     display: none;
 }
-.burger{
+
+.burger {
     cursor: pointer;
 }
 
-.select{
+.select {
     transform: translateX(-70px);
     height: 110px;
     width: 100px;
@@ -118,7 +123,7 @@
 
 }
 
-.select a{
+.select a {
     display: block;
     color: wheat;
     text-decoration: none;
@@ -127,12 +132,90 @@
     margin-left: 7px;
 }
 
-#menu:checked ~ .select{
+#menu:checked~.select {
     display: block;
 }
 
+@media (max-width : 578px) {
+    .jollo {
+        width: 110px;
+        height: 500px;
+    }
+
+    .jollo h3 {
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 10px;
+    }
+
+    .jollo1 {
+        margin-top: -555px;
+        width: 171px;
+        height: 564px;
+        margin-left: 110px;
+    }
+
+    .jollo1 img {
+        height: 150px;
+        width: 150px;
+        margin-top: 150px;
+        margin-left: -75px;
+    }
+
+    .jollo1 h2 {
+        padding-left: 70px;
+        margin-top: -120px;
+        font-size: 15px;
+    }
+
+    .jollo1 h1 {
+        padding-left: 67px;
+        margin-top: 50px;
+        font-size: 15px;
+    }
 
 
+    .jollo1 h3 {
+        padding-left: -75px;
+        margin-top: 40px;
+        width: 150px;
+        font-size: 10px;
+    }
 
+    .jollo2 button {
+    height: 30px;
+    width: 130px;
+    margin-left: -550px;
+    margin-top: 70px;
+}
 
+.jollo3 button {
+    height: 30px;
+    width: 130px;
+    margin-left: -830px;
+    margin-top: 80px;
+}
+
+.jollo4 {
+    height: 35px;
+    width: 35px;
+    margin-left: -720px;
+    margin-top: -455px;
+}
+
+.jollogs img{
+    margin-left: 2px;
+    margin-top: 430px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.jollogs{
+    display: flex;
+    gap: 5px;
+   
+}
+
+}
 
